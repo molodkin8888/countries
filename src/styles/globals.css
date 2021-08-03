@@ -1,0 +1,36 @@
+:root {
+  --text-color: #1b2327;
+  --background-color: #fcfff3;
+  --background-color-dark: #04111a;
+  --background-color-light: #ffffff;
+  --background-color-table: #ffffff;
+  --hovering-line-row: none;
+}
+
+[user-theme="dark"] {
+  --text-color: #ffffff;
+  --background-color: #04111a;
+  --background-color-dark: #04111a;
+  --background-color-light: #ffffff;
+  --background-color-table: #04111a;
+  --hovering-line-row: 1px solid;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
